@@ -5,6 +5,7 @@ using UnityEngine;
 public class RespawnStick : MonoBehaviour
 {
     public GameObject Stick;
+    public GameObject Key;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -14,6 +15,7 @@ public class RespawnStick : MonoBehaviour
             //Debug.Log("的に当たった!!");
             GameObject.Find("Ball").SetActive(false);
             GameObject.Find("Target").SetActive(false);
+            Key.SetActive(true);
             Stick.SetActive(true);
             GameObject.Find("AlarmArea").GetComponent<SphereCollider>().enabled = false;
         }

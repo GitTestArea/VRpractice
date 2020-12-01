@@ -235,6 +235,7 @@
     <Compile Include="Assets\Script\ControllerRote.cs" />
     <Compile Include="Assets\Script\FPSCounter.cs" />
     <Compile Include="Assets\Script\GateController.cs" />
+    <Compile Include="Assets\Script\GoalController.cs" />
     <Compile Include="Assets\Script\ItemScale.cs" />
     <Compile Include="Assets\Script\KeyAlarm.cs" />
     <Compile Include="Assets\Script\KeyGrabble.cs" />
