@@ -239,6 +239,7 @@
     <Compile Include="Assets\Script\ItemScale.cs" />
     <Compile Include="Assets\Script\KeyAlarm.cs" />
     <Compile Include="Assets\Script\KeyGrabble.cs" />
+    <Compile Include="Assets\Script\LogPrompter.cs" />
     <Compile Include="Assets\Script\NumberBoxController.cs" />
     <Compile Include="Assets\Script\NumberPaneController.cs" />
     <Compile Include="Assets\Script\OVRDebugConsoleTest.cs" />

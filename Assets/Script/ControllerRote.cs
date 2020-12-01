@@ -18,6 +18,7 @@ public class ControllerRote : MonoBehaviour
         offsetAngle = transform.rotation.eulerAngles.x;
         //回転した時に一回だけ処理するためのもの
         Stage = 0;
+      
        
    }
 
@@ -40,12 +41,11 @@ public class ControllerRote : MonoBehaviour
             if((360 - ro) > 90.0f && Stage == 0)
             {
                 Stage = 1;
-                //Debug.Log("回転");
+                Debug.Log("回転");
                 GameObject open = GameObject.Find("lid");
                 //Debug.Log(open);
                 anim = open.GetComponent<Animator>();
                 anim.SetBool("LidOpne", true);
-                
             }
         }
 

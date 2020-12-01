@@ -12,7 +12,7 @@ public class ItemScale : MonoBehaviour
     {
         if (other.gameObject.tag == "Character")
         {
-            //Debug.Log("侵入");
+            Debug.Log("拡大エリア");
             Righthand.SetActive(true);
             Lefthand.SetActive(true);
         }
@@ -22,7 +22,7 @@ public class ItemScale : MonoBehaviour
     {
         if (other.gameObject.tag == "Character")
         {
-            //Debug.Log("退出");
+            Debug.Log("エリアからでた");
             Righthand.SetActive(false);
             Lefthand.SetActive(false);
         }

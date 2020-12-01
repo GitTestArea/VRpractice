@@ -12,7 +12,7 @@ public class RespawnStick : MonoBehaviour
         
         if(collision.gameObject.tag == "Ball")
         {
-            //Debug.Log("的に当たった!!");
+            Debug.Log("的に当たった!!");
             GameObject.Find("Ball").SetActive(false);
             GameObject.Find("Target").SetActive(false);
             Key.SetActive(true);
