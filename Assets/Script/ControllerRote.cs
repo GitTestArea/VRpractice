@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ControllerRote : MonoBehaviour
 {
+    //手の動きに追従させるためのもの
     public Transform target;
     //Update内で処理をするためのbool
     private bool isGrabble;

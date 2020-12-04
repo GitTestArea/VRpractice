@@ -19,7 +19,7 @@ public class NumberBoxController : MonoBehaviour
     // 衝突発生時に物理シミュレーションエンジンによって自動的に呼び出される
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player") // ボールには「Player」タグを付けておき、ボールとの衝突だけに応答する（箱同士や地面・壁との衝突があっても何もしない）
+        if (other.gameObject.tag == "Player") // 手には「Player」タグを付けておき、ボールとの衝突だけに応答する（箱同士や地面・壁との衝突があっても何もしない）
         {
             this.numberPaneController.Lit = true; // ※数字表示板を点灯させて衝突したことを分かりやすくした
             this.OnEnterNumber.Invoke(this.Character); // Characterを引数にして数字入力イベントを起こす
